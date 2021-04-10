@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <h1 class="text-center"> Gumroad Widgets </h1>
+        <p class="text-center">(Product is a required field)</p>
+        <div class="row mt-5">
+            <div class="col-md-6" style="border-right: 1px solid black">
+                <div class="col-md-12">
+                    <h4>Overlay</h4>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>Select Products *</label>
+                    <select id="overlay-select-product" class="form-control">
+                        <option value="0">Select Product</option>
+                        <option value="flashcard">JS and DS Flashcards</option>
+                        <option value="pencil">Pencil</option>
+                    </select>
+                </div>
+
+
+                <div class="col-md-12 form-group">
+                    <input type="checkbox" id="auto-payment">
+                    <label class="form-check-label">Auto Trigger Payment Form</label>
+
+                </div>
+
+                <div class="col-md-12 form-group">
+                    <input type="checkbox" id="single-product">
+                    <label class="form-check-label">Single Product Purchase</label>
+                </div>
+
+                <div class="col-md-12 form-group">
+                    <input type="text" id="showOverlayElement" class="form-control">
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <h4>Embed</h4>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>Select Products *</label>
+                    <select id="embed-select-product" class="form-control">
+                        <option value="0">Select Product</option>
+                        <option value="flashcard">JS and DS Flashcards</option>
+                        <option value="pencil">Pencil</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12 form-group">
+                    <input type="checkbox" id="embed-sub-domain-use">
+                    <label class="form-check-label">Use subdomain <b>https://thecodingcards.gumroad.com</b></label>
+                </div>
+
+
+                <div class="col-md-12 form-group">
+                    <input type="text" id="showEmbedElement" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <h4>Copy the code and paste in <i>widgets.html</i> file</h4>
+                <h4>Navigate to wigdets file by clicking <a href="test-widgets.html">here</a></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
