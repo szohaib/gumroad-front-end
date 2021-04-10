@@ -3,8 +3,11 @@ This project is written in Vanilla JS using TypeScript. Webpack is used for bund
 Steps to run this project
 
 Step 1: Run `npm install`
+
 Step 2: Run `npm run build`
+
 Step 3: Run `npm run start`
+
 Step 4: Open your browser and navigate to http://localhost:3000
 
 
