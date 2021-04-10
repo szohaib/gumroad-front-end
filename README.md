@@ -1,6 +1,6 @@
 This project is written in Vanilla JS using TypeScript. Webpack is used for bundling the JS files.
 
-Steps to run this project
+**Steps to run this project**
 
 Step 1: Run `npm install`
 
