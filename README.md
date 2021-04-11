@@ -2,14 +2,20 @@ This project is written in Vanilla JS using TypeScript. Webpack is used for bund
 
 **Steps to run this project**
 ```
-    Step 1: Run `npm install`
+Step 1: Run `npm install`
 
-    Step 2: Run `npm run build`
+Step 2: Run `npm run build`
 
-    Step 3: Run `npm run start``
+Step 3: Run `npm run start``
+    
+Step 4: Open your browser and navigate to http://localhost:3000
 ```
 
-Step 4: Open your browser and navigate to http://localhost:3000
+**Features supported**
+- Build your own overlay and embed code
+- Supports custom subdomain for embed
+- Auto Payment Form
+- Reading data-attrs of the anchor tags
 
 
 This project contains two HTML files: 
