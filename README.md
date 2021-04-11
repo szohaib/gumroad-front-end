@@ -40,4 +40,4 @@ The below diagram should help in understandng the flow and the architecture of t
 <img width="200" height="auto" src="assets/images/Overlay_Flowchart.png">
 
 # Embed Flow Chart
-<img src="assets/images/Embed_Flowchart.png">
+<img width="200" height="auto" src="assets/images/Embed_Flowchart.png">
