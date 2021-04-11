@@ -37,7 +37,7 @@ In the src/public/classes folder, you'll find 4 classes that I created.
 The below diagram should help in understandng the flow and the architecture of the system:
 
 # Overlay Flow Chart
-<img src="assets/images/Overlay_Flowchart.png">
+<img width="200" height="auto" src="assets/images/Overlay_Flowchart.png">
 
 # Embed Flow Chart
 <img src="assets/images/Embed_Flowchart.png">
