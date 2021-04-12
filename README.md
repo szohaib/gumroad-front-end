@@ -1,4 +1,4 @@
-This project is written in Vanilla JS using TypeScript. Webpack is used for bundling the JS files.
+This project is written in Vanilla JS using TypeScript. Webpack is used for bundling the JS files. "main.js" is a single JS file that is used in this project. This file will be generated once the project is built.
 
 **Steps to run this project**
 ```
