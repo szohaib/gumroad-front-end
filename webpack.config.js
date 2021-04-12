@@ -41,5 +41,5 @@ module.exports = {
 
 
     // set watch mode to `true`
-    watch: true
+    watch: false
 };
