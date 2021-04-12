@@ -13,7 +13,6 @@ export default class Build extends Widgets {
         this.overlayElement.type = "button";
         this.overlayElement.classList.add("gumroad-button");
         this.overlayElement.innerText = "Buy This"
-       
 
 
         this.embedElement = document.createElement('div');
@@ -106,23 +105,6 @@ export default class Build extends Widgets {
             element.removeAttribute("data-gumroad-product-id")
         }
     }
-
-
-
-
-    // public onTypeChange = (e: Event) => {
-    //     const type = (e.target as HTMLInputElement).value;
-    //     console.log(type)
-    //     if(type === 'overlay'){
-    //         this.overlayElement.className = ""
-    //         this.overlayElement.classList.add('gumroad-button');
-    //     }
-    //     else{
-    //         this.overlayElement.className = ""
-    //         this.overlayElement.classList.add('gumroad-embed-button');
-    //     }
-    //     this.bindOverlayElementOnUI();
-    // }
 
     public bindOverlayElementOnUI = () => {
         (document.getElementById('showOverlayElement') as HTMLInputElement).value = (this.overlayElement.outerHTML);

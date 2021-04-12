@@ -13,7 +13,7 @@ module.exports = {
 
     // output bundles (location)
     output: {
-        path: path.resolve( __dirname, 'src/public/dist' ),
+        path: path.resolve('dist' ),
         filename: 'main.js',
     },
 

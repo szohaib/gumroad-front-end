@@ -5,7 +5,7 @@
   "private": true,
   "main": "dist/index.js",
   "scripts": {
-    "start": "node ./src/public/distserver.js",
+    "start": "node ./dist/server.js",
     "build": "tsc && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
